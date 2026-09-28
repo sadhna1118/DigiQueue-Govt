@@ -1,0 +1,26 @@
+/* Floating portal return for kiosk and TV display modes */
+.floating-portal-return {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 10000;
+}
+
+.btn-return-portal {
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #94a3b8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: var(--transition);
+}
+
+.btn-return-portal:hover {
+  background: #0284c7;
+  color: #fff;
+  border-color: #38bdf8;
+}
